@@ -7,14 +7,14 @@ Designed for use in custom mechanical (split) keyboards, but many other uses are
 
  * Pro-micro / Elite-C compatible footprint with 5 extra pins at bottom
  * Raspberry Pi RP2040 MCU
- * Up to 16MB flash memory
+ * Up to 16MB flash memory _(depending on component selection and availability)_
  * User LED
  * Low profile USB-C mid-mount connector
- * Can be assembled by all common PCBA services (including JLCPCB)
+ * Designed to be manufactured and assembled by all common PCBA services (including JLCPCB)
 
 ## Manufacturing
 
-This repo includes a `jlc` branch with all necessary information (gerbers, bom, pos) for assembly by JLCPCB.
+Releases contain required information (gerbers, bom, pos) for assembly by JLCPCB.
 
 ## Credits
 
