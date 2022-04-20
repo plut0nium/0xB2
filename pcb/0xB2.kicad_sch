@@ -3253,6 +3253,22 @@
     (pin "1" (uuid 5996a4b8-577d-44cc-b6d3-3d0860f1d1bc))
   )
 
+  (symbol (lib_id "power:+5V") (at 262.89 38.1 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 0f2f533c-6efa-4396-afac-bd28ecf14786)
+    (property "Reference" "#PWR?" (id 0) (at 262.89 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (id 1) (at 262.89 34.29 0))
+    (property "Footprint" "" (id 2) (at 262.89 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 262.89 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fe5f95b7-0ecf-452d-a75a-b4ffca175b66))
+  )
+
   (symbol (lib_id "power:GND") (at 26.67 186.69 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 13ab4f07-0e11-4ab7-8bbc-932a9deb2560)
@@ -4361,22 +4377,6 @@
     (pin "1" (uuid 7204130e-2372-41c2-b221-e48b738e9829))
   )
 
-  (symbol (lib_id "power:VBUS") (at 262.89 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid ce7cdfc2-6554-4575-a356-645785e89b5b)
-    (property "Reference" "#PWR031" (id 0) (at 262.89 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (id 1) (at 262.89 34.29 0))
-    (property "Footprint" "" (id 2) (at 262.89 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 262.89 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f0941292-2fef-470b-bbbc-5e94e9fb92e9))
-  )
-
   (symbol (lib_id "Device:Polyfuse") (at 59.69 36.83 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ce9365fe-085a-4731-86d8-fc3e6b16f716)
@@ -4628,14 +4628,14 @@
     (path "/c05d17f7-d6dd-48ff-97f8-e4fc102e3a52"
       (reference "#PWR030") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ce7cdfc2-6554-4575-a356-645785e89b5b"
-      (reference "#PWR031") (unit 1) (value "VBUS") (footprint "")
-    )
     (path "/da1644f7-6b59-4f28-b4bd-963f2f055bce"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/f9f9d52c-c3cf-4935-8d1b-0924649d81e5"
       (reference "#PWR0102") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/0f2f533c-6efa-4396-afac-bd28ecf14786"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/4a21e78b-0ab0-4b88-8132-9b174e045719"
       (reference "C1") (unit 1) (value "1µ") (footprint "Capacitor_SMD:C_0603_1608Metric")
