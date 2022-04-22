@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "0xB2 - blinky2040")
-    (rev "v0")
+    (title "0xB2 - Splinky")
+    (rev "2")
     (company "plut0nium")
   )
 
