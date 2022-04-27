@@ -3154,7 +3154,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 69.215 174.625 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 06b6e523-10ae-4799-8871-3c7a3a700ad9)
     (property "Reference" "J5" (id 0) (at 67.945 177.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3492,7 +3492,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 246.38 86.36 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 3adb3672-23cd-41fa-a9f7-d2bc50f22f8f)
     (property "Reference" "J3" (id 0) (at 238.76 86.36 90))
     (property "Value" "Conn_01x05" (id 1) (at 246.38 88.9 90))
@@ -3515,13 +3515,13 @@
     (property "Reference" "U2" (id 0) (at 245.8594 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "W25Q32JVZP" (id 1) (at 245.8594 121.92 0)
+    (property "Value" "GD25Q80CEIGR" (id 1) (at 245.8594 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0xLib_Package_DFN_QFN:USON-8-1EP_3x2mm_P0.5mm_EP0.25x1.65mm" (id 2) (at 243.84 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" (id 3) (at 243.84 132.08 0)
+    (property "Datasheet" "" (id 3) (at 243.84 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C395484" (id 4) (at 243.84 132.08 0)
@@ -3561,7 +3561,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x12") (at 223.52 52.07 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 44683f1e-d2b9-4133-9a9d-84586c32a6a2)
     (property "Reference" "J2" (id 0) (at 223.52 36.83 0))
     (property "Value" "Conn_01x12" (id 1) (at 220.98 52.07 90))
@@ -4311,7 +4311,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x12") (at 269.24 54.61 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid c32cf5c5-2813-46eb-ad82-492a3ecf63e9)
     (property "Reference" "J4" (id 0) (at 269.24 36.83 0))
     (property "Value" "Conn_01x12" (id 1) (at 271.78 52.07 90))
@@ -4777,7 +4777,7 @@
       (reference "U1") (unit 1) (value "RP2040") (footprint "0xLib_Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm")
     )
     (path "/3b628cb4-77fa-40d4-8aa3-0ae0b973ec32"
-      (reference "U2") (unit 1) (value "W25Q32JVZP") (footprint "0xLib_Package_DFN_QFN:USON-8-1EP_3x2mm_P0.5mm_EP0.25x1.65mm")
+      (reference "U2") (unit 1) (value "GD25Q80CEIGR") (footprint "0xLib_Package_DFN_QFN:USON-8-1EP_3x2mm_P0.5mm_EP0.25x1.65mm")
     )
     (path "/33208a57-5054-4bad-b85f-35da7b25e7bb"
       (reference "U3") (unit 1) (value "XC6210B332MR-G") (footprint "Package_TO_SOT_SMD:SOT-23-5")

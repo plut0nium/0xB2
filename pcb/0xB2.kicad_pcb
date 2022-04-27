@@ -612,6 +612,7 @@
     (at 147.32 107.95 90)
     (property "Sheetfile" "0xB2.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (path "/3adb3672-23cd-41fa-a9f7-d2bc50f22f8f")
     (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J3" (at 0 -1.905 90) (layer "F.SilkS") hide
@@ -860,6 +861,7 @@
     (at 144.78 80.01)
     (property "Sheetfile" "0xB2.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (path "/44683f1e-d2b9-4133-9a9d-84586c32a6a2")
     (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J2" (at 0 -1.905 180) (layer "F.SilkS") hide
@@ -962,7 +964,7 @@
       (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 039b91a6-087f-4ff5-8187-23960db5ef09)
     )
-    (fp_text value "W25Q32JVZP" (at 0 2.1) (layer "F.Fab")
+    (fp_text value "GD25Q80CEIGR" (at 0 2.1) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9c218781-f1f0-4102-84c2-6c5d9ec8163b)
     )
@@ -1054,6 +1056,7 @@
     (at 160.02 107.95 180)
     (property "Sheetfile" "0xB2.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (path "/c32cf5c5-2813-46eb-ad82-492a3ecf63e9")
     (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J4" (at 0 -1.905) (layer "F.SilkS") hide
@@ -1288,6 +1291,7 @@
     (tags "Through hole pin header THT 1x02 1.27mm single row")
     (property "Sheetfile" "0xB2.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (path "/06b6e523-10ae-4799-8871-3c7a3a700ad9")
     (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J5" (at 0 -1.695) (layer "F.SilkS") hide
