@@ -18,11 +18,13 @@ Designed for use in custom mechanical (split) keyboards, but many other uses are
 
 ## Pinout
 
-The pinout is compatible with the widely available [SparkFun RP2040](https://www.sparkfun.com/products/18288), with extra GPIO10..14 pins broken out on the lower side.
+The pinout is compatible with the widely available [SparkFun RP2040](https://www.sparkfun.com/products/18288), with extra GPIO12..16 pins broken out on the lower side.
 
-A user LED is tied to GPIO17, can be used for UF2 bootloader status indication, or any other purpose (or turned OFF, no annoying always-on power LED).
+USB VBUS detection on GPIO19.
 
-USB VBUS detection on GPIO25.
+> This pinout is a _de facto_ standard, established by actors of the MK community (see discussions in `#RP2040` on the bastardkb Discord server) 
+
+Additionnaly, a user LED is tied to GPIO17, can be used for UF2 bootloader status indication, or any other purpose (or turned OFF, no annoying always-on power LED).
 
 ## Programming
 
@@ -37,7 +39,8 @@ Releases contain required information (gerbers, bom, pos) for assembly by JLCPCB
 
 ## Releases
 
- * **v2** current release
+ * **v3** updated pinout - current release
+ * **v2** first public release
  * **v1** first prototyping run
 
 ## Credits
