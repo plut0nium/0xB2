@@ -26,6 +26,10 @@ USB VBUS detection on GPIO19.
 
 Additionnaly, a user LED is tied to GPIO17, can be used for UF2 bootloader status indication, or any other purpose (or turned OFF, no annoying always-on power LED).
 
+diagram with qmk rp2040 naming, avr and arduino mapping below
+
+![pinout mapping](https://i.imgur.com/TZz7Kfp.png)
+
 ## Programming
 
 The splinky uses a basic two-button reset circuitry.
